@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{138A0325-0545-00B6-BB38-47B25BC885D6}</ProjectGuid>
+    <ProjectGuid>{D5166D50-4887-4780-F395-121243F58D17}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -71,28 +71,29 @@
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
-    <Compile Include="Assets\PhotonManager.cs" />
-    <Compile Include="Assets\PlayerMove.cs" />
-    <Compile Include="Assets\PlayerNetworking.cs" />
+    <Compile Include="Assets\Scripts\NumberPlayer.cs" />
+    <Compile Include="Assets\Scripts\PhotonManager.cs" />
+    <Compile Include="Assets\Scripts\PlayerMove.cs" />
+    <Compile Include="Assets\Scripts\PlayerNetworking.cs" />
     <None Include="Assets\Photon\PhotonLibs\changes-library.txt" />
     <None Include="Assets\Photon\PhotonUnityNetworking\link.xml" />
     <None Include="Assets\Photon\PhotonLibs\Photon3Unity3D.xml" />
     <None Include="Assets\Photon\PhotonUnityNetworking\readme.txt" />
     <None Include="Assets\Photon\PhotonUnityNetworking\changelog.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Sondres/Documents/GitHub/Photon Test 2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>E:/Github/PhotonTest/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Sondres/Documents/GitHub/Photon Test 2/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>E:/Github/PhotonTest/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Sondres/Documents/GitHub/Photon Test 2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>E:/Github/PhotonTest/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Sondres/Documents/GitHub/Photon Test 2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>E:/Github/PhotonTest/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/Sondres/Documents/GitHub/Photon Test 2/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>E:/Github/PhotonTest/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -289,26 +290,29 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.5f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
     </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.5f1/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.GoogleAudioSpatializer">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.5f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.5f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/Sondres/Documents/GitHub/Photon Test 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/Sondres/Documents/GitHub/Photon Test 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/Sondres/Documents/GitHub/Photon Test 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
     <Reference Include="Photon3Unity3D">
-      <HintPath>C:/Users/Sondres/Documents/GitHub/Photon Test 2/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+      <HintPath>E:/Github/PhotonTest/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>C:/Users/Sondres/Documents/GitHub/Photon Test 2/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+      <HintPath>E:/Github/PhotonTest/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>E:/Github/PhotonTest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>E:/Github/PhotonTest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>E:/Github/PhotonTest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.5f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -658,47 +662,47 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
-      <Project>{487469A4-7D0D-BF69-EB7D-5ACAF02473B6}</Project>
+      <Project>{C472E025-17CA-21D5-A29D-76DCD19871D5}</Project>
       <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
-      <Project>{FAA104BE-0037-A74F-5D4E-BE3C344F2553}</Project>
+      <Project>{4176B0C6-4967-60FE-8AD8-DBD6866EE3F6}</Project>
       <Name>PunDemos.DemoHubEditor</Name>
     </ProjectReference>
     <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
-      <Project>{105C6DCF-D447-DDAB-C059-237E9960D088}</Project>
+      <Project>{92A63815-1B7E-76B1-7BB7-91EA3FC2977D}</Project>
       <Name>PunDemos.DemoSlotcarEditor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
-      <Project>{5DC36B2C-D48C-4020-72D1-42C09AD241A8}</Project>
+      <Project>{A76F3A56-C048-6262-B8F8-E373225820BE}</Project>
       <Name>PhotonUnityNetworking.Demos</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{6FEDCE2B-6F69-0DF6-B860-66DE5748917E}</Project>
+      <Project>{5D7D7695-6EE3-113B-69FD-C949B60B21C4}</Project>
       <Name>PhotonUnityNetworking.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonWebSocket.csproj">
-      <Project>{118E6EBE-4ACF-0C90-E38B-0B228B5AE244}</Project>
+      <Project>{55EE7225-CECA-9C67-575D-6350794687DB}</Project>
       <Name>PhotonWebSocket</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{3056B31E-378E-9077-59A1-5F66EBD1935B}</Project>
+      <Project>{BA0E8974-6D04-3999-60B9-65F9F6FF2C71}</Project>
       <Name>PhotonRealtime</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{CDC65140-08F6-CFC8-3F43-260A9D5A2F6C}</Project>
+      <Project>{87DBE4CC-4D2E-14ED-0433-60082E6C03F0}</Project>
       <Name>PhotonUnityNetworking</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonChat.csproj">
-      <Project>{EBB2FC77-E6EF-066B-3F4F-7D68C9EC53EB}</Project>
+      <Project>{E75BE92D-65A3-16CC-874F-166320B1538E}</Project>
       <Name>PhotonChat</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
-      <Project>{489C4D84-F2F3-2427-1222-3A362CB663CF}</Project>
+      <Project>{DCF91AA3-073A-DA41-B411-8AF7F394DE2C}</Project>
       <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
-      <Project>{6BC8A53A-B392-D22C-6077-186B43C5D94B}</Project>
+      <Project>{FE29DEC6-9DCD-E701-4C42-E0AFF9C9F6CF}</Project>
       <Name>PhotonUnityNetworking.Editor</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{489C4D84-F2F3-2427-1222-3A362CB663CF}</ProjectGuid>
+    <ProjectGuid>{DCF91AA3-073A-DA41-B411-8AF7F394DE2C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>PhotonUnityNetworking.Utilities.Culling.Editor</AssemblyName>
@@ -271,6 +271,12 @@
     <Reference Include="UnityEditor.Networking">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.5f1/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
     </Reference>
+    <Reference Include="Vuforia.UnityExtensions.Editor">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.5f1/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.5f1/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.GoogleAudioSpatializer">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.5f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll</HintPath>
     </Reference>
@@ -298,26 +304,26 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/Users/Sondres/Documents/GitHub/Photon Test 2/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/Sondres/Documents/GitHub/Photon Test 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/Sondres/Documents/GitHub/Photon Test 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/Sondres/Documents/GitHub/Photon Test 2/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Users/Sondres/Documents/GitHub/Photon Test 2/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
-    </Reference>
     <Reference Include="Photon3Unity3D">
-      <HintPath>C:/Users/Sondres/Documents/GitHub/Photon Test 2/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+      <HintPath>E:/Github/PhotonTest/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>C:/Users/Sondres/Documents/GitHub/Photon Test 2/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+      <HintPath>E:/Github/PhotonTest/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>E:/Github/PhotonTest/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>E:/Github/PhotonTest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>E:/Github/PhotonTest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>E:/Github/PhotonTest/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Purchasing">
+      <HintPath>E:/Github/PhotonTest/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.5f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -676,7 +682,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{6FEDCE2B-6F69-0DF6-B860-66DE5748917E}</Project>
+      <Project>{5D7D7695-6EE3-113B-69FD-C949B60B21C4}</Project>
       <Name>PhotonUnityNetworking.Utilities</Name>
     </ProjectReference>
   </ItemGroup>
