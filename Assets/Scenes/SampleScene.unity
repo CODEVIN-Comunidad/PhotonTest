@@ -312,6 +312,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ship_04
       objectReference: {fileID: 0}
+    - target: {fileID: 8705611132027135763, guid: b3dc7c5d335398f4ca4116ed6d791948,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8705611132027135760, guid: b3dc7c5d335398f4ca4116ed6d791948,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -636,6 +641,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ship_02
       objectReference: {fileID: 0}
+    - target: {fileID: 509630718128883639, guid: 6887c4772140a7f43b82bf379e615b50,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 509630718128883626, guid: 6887c4772140a7f43b82bf379e615b50,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -705,6 +715,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ship_03
       objectReference: {fileID: 0}
+    - target: {fileID: 1809905951032710985, guid: 2f63b60ff204ab547b7c7f07b74132ef,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1809905951032710986, guid: 2f63b60ff204ab547b7c7f07b74132ef,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -773,6 +788,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Ship_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226519549656669692, guid: 890abad51c7ca194487e2be7f2a8674c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8226519549656669691, guid: 890abad51c7ca194487e2be7f2a8674c,
         type: 3}

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class NumberPlayer : MonoBehaviour
 {
@@ -17,16 +18,16 @@ public class NumberPlayer : MonoBehaviour
         switch (playerNumber)
         {
             case 1:
-                gameObject.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("/marakame_idle_0");//"marakame_idle_0";
+                gameObject.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("marakame_idle_0");//"marakame_idle_0";
                 break;
             case 2:
-                gameObject.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("/serpiente4_0");
+                gameObject.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("serpiente4_0");
                 break;
             case 3:
-                gameObject.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("/jaguar_0");
+                gameObject.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("jaguar_0");
                 break;
             case 4:
-                gameObject.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("/jabali_corriendo_0");
+                gameObject.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("jabali_corriendo_0");
                 break;
         }
     }
