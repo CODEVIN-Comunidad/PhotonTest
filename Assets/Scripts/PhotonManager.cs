@@ -6,19 +6,19 @@ using Photon.Realtime;
 
 public class PhotonManager : MonoBehaviourPunCallbacks
 {
-    private int random;
-    private string player;
+    private int numberPlayer;
+    public static string player;
     // Start is called before the first frame update
     void Start()
     {
         PhotonNetwork.ConnectUsingSettings();
-        random = Random.Range(1, 4);
+        numberPlayer = Random.Range(1,4);
     }
 
     // Update is called once per frame
     void Update()
     {
-        /*switch (random)
+        switch (numberPlayer)
         {
             case 1:
                 player = "Player";
@@ -32,7 +32,7 @@ public class PhotonManager : MonoBehaviourPunCallbacks
             case 4:
                 player = "Player 3";
                 break;
-        }*/
+        }
     }
 
     public override void OnConnectedToMaster()
@@ -48,6 +48,7 @@ public class PhotonManager : MonoBehaviourPunCallbacks
     public override void OnJoinedRoom()
     {
         PhotonNetwork.Instantiate("Player", new Vector2(Random.Range(-6f,6f),transform.position.y), Quaternion.identity);
+        //numberPlayer++;
     }
 }
  
